@@ -4,7 +4,7 @@
   "main": "bot.js",
   "private": true,
   "scripts": {
-    "start": "nodemon ./bin/www",
+    "start": "node ./bin/www",
     "test": "jest",
     "lint": "./node_modules/.bin/eslint ./"
   },
@@ -17,6 +17,7 @@
     "morgan": "~1.7.0",
     "pug": "^2.0.0-beta11",
     "serve-favicon": "~2.3.0",
+    "twit": "^2.2.5",
     "twitter": "^1.7.0"
   },
   "devDependencies": {
